@@ -5,7 +5,7 @@ public class Test3 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Лиза пахнет жопами?");
         String value = scanner.nextLine();
-        while (!"Да".equalsIgnoreCase(value)){
+        while (!"Даa".equalsIgnoreCase(value)){
             System.out.println("неверно");
             value = scanner.nextLine();
         }
